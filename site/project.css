@@ -2,6 +2,7 @@
 /* CSS Document */
 body {
 	background: linear-gradient(to bottom right, #ff99cc 0%, #3366cc 100%);
+	position: relative;
 }
 .header{
 	height:100px;
