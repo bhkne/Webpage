@@ -1,9 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
-body {
+html,body {
 	background: linear-gradient(to bottom right, #ff99cc 0%, #3366cc 100%);
-	position: relative;
+	position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+
+
 }
+
 .header{
 	height:100px;
 	background: linear-gradient(to bottom right, blue 0%,  red 70%);
@@ -22,16 +30,16 @@ body {
 	top:32px;
 }
 .T1{
-	position:absolute;
-	float:right;
-	right:50px;
+	position:relative;
+	
+	left:980px;
 	top:-30px;
 	color:white;
 	}
 .f1{
-	position:absolute;
-	float:right;
-	right:20px;
+	position:relative;
+	
+	left:870px;
 	top:-540px;
 }
 .fn1{
@@ -79,4 +87,35 @@ body {
 	font-size:20px;
 	border-radius:5px;
 	border-color:#5BAD45;
+}
+.img123 {
+	position: absolute;
+	top: 64px;
+	left: -8px
+}
+/*a {
+	margin-left: 300px;
+	margin-top: 467px;
+	text-decoration: none;
+	float: right;
+	margin-bottom: 0px;
+
+
+}*/
+.divimg {
+	position: relative;
+	top: 480px;
+	left: 1252px;
+}
+a:hover {
+	color: red;
+	 
+}
+footer {
+	position: relative;
+	top: 30px;
+	left:115px;
+	color: green;
+	background-color: yellow;
+
 }
