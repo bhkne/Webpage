@@ -22,14 +22,14 @@ body {
 	top:32px;
 }
 .T1{
-	position:relative;
+	position:absolute;
 	float:right;
 	right:50px;
 	top:-30px;
 	color:white;
 	}
 .f1{
-	position:relative;
+	position:absolute;
 	float:right;
 	right:20px;
 	top:-540px;
